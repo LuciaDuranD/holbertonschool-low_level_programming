@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
-* main - Principal function
-* Description: Print the text
-* Return: 1
+* main - Entry point
+* 
+* Return: 1 
 */
 int main(void)
 {
