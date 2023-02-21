@@ -1,11 +1,13 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
 * main - Entry point
-* 
-* Return: 1 
+* Description: print the text
+* Return: 1
 */
 int main(void)
 {
-write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n" 61);
-return (1);
+char *word = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+ while (*word);
+ putchar (*word++);
+ return (1);
 }
