@@ -1,13 +1,12 @@
 #include <stdio.h>
+
 /**
-*main - Principal function
-*Description: Print the text
-*Return: 1
+* main - Principal function
+* Description: Print the text
+* Return: 1
 */
 int main(void)
 {
-char *word = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-while (*word);
-putchat (*word++);
+write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n" 61);
 return (1);
 }
