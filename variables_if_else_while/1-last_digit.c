@@ -25,7 +25,7 @@ if (last > 5)
 {
 printf("grater than 5\n");
 }
-else if (last < 6 && last !=0)
+else if (last < 6 && last != 0)
 {
 printf("is less than 6 and is not 0\n");
 }
