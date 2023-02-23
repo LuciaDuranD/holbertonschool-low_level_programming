@@ -4,28 +4,29 @@
 
 /**
 * main - Entry point
-* 
+*
 * Return: 0
 */
 int main(void)
 {
-int n;
-char last[] = "Last digit of";
+  int n
+  int last;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-printf("%s %d and is", last, n, n % 10);
-if (n % 10 > 5)
+last = n % 10;
+
+if (lastn > 5)
 {
- printf("grater than 5\n");
+printf("grater than 5\n");
 }
- else if (n % 10 == 0)
+else if (last < 6 && last !=0)
 {
- printf("0/n");
+printf("is less than 6 and is not 0\n");
 }
- else
+else
 {
- printf("less than 6 which is not 0\n");
+printf("is 0\n");
 }
- return (0);
+return (0);
 }
