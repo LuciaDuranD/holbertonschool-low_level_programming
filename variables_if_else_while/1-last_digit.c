@@ -5,19 +5,23 @@
 /**
  * main - Entry point
  *
+ *
  * Return: Always 0 (Success)
+ *
  */
-
 int main(void)
 {
-int n;
-int last;
+	int n;
+	int last;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-lastn = n % 10;
+last = n % 10;
 
-if (lastn > 5)
+
+printf("Last digit of %i is %i", n, last);
+
+if (last > 5)
 {
 printf("grater than 5\n");
 }
