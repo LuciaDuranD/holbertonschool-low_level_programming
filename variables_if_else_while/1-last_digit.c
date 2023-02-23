@@ -3,18 +3,19 @@
 #include <stdio.h>
 
 /**
-* main - Entry point
-*
-* Return: 0
-*/
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
-  int n
-  int last;
+int n;
+int last;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-last = n % 10;
+lastn = n % 10;
 
 if (lastn > 5)
 {
