@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- * main - assign a random number to the variable n.
- *
- * Return: 0
- */
+* main - Entry point
+* description: determines if a random number is greater than 5 or if it is 0
+* Return: 0
+*/
 
 int main(void)
 {
@@ -21,13 +21,13 @@ if (n % 10 > 5)
 {
  printf("grater than 5\n");
 }
- else if (n % 10 == 0)
+else if (n % 10 == 0)
 {
- printf("0/n");
+printf("0/n");
 }
- else
+else
 {
- printf("less than 6 which is not 0\n");
+printf("less than 6 which is not 0\n");
 }
- return (0);
+return (0);
 }
