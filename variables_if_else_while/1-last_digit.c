@@ -5,7 +5,6 @@
 /**
  * main - Entry point
  *
- *
  * Return: Always 0 (Success)
  *
  */
@@ -23,15 +22,15 @@ printf("Last digit of %i is %i", n, last);
 
 if (last > 5)
 {
-printf("grater than 5\n");
+printf(" and is greater than 5\n");
 }
-else if (last < 6 && last != 0)
+else if (last < 6 && last !=0)
 {
-printf("is less than 6 and is not 0\n");
+printf("and is less than 6 and not 0\n");
 }
 else
 {
-printf("is 0\n");
+printf("and is 0\n");
 }
 return (0);
 }
