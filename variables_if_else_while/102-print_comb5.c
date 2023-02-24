@@ -12,7 +12,7 @@ int a;
 int b;
 for (a = 0; a < 99; a++)
 {
-for (b = a +1; b < 10; b++)
+for (b = a + 1; b < 10; b++)
 {
 putchar((a / 10) + '0');
 putchar((a % 10) + '0');
