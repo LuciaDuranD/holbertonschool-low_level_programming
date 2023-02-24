@@ -3,16 +3,16 @@
 /**
  * print_last_digit - main fuction
  *
- * @n: entry number to check
+ * @b: entry number to check
  *
- * Return: last digit of n
+ * Return: int.
  */
-int print_last_digit(int n);
+
+int print_last_digit(int b)
 {
-int a;
-a = n % 10;
-if (a < 0)
-a = a * (-1);
-_putchar(a + '0');
-return (a); 
+b %= 10;
+if (b < 0)
+b *= -1;
+_putchar(b + '0');
+return (b);
 }
