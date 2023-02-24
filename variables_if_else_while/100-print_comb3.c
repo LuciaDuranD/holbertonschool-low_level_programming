@@ -20,8 +20,8 @@ putchar((a % 10) + '0');
 putchar((n % 10) + '0');
 if (a != 18 || n != 19)
 {
-putchar(' ');
 putchar(',');
+putchar(' ');
 }
 }
 }
