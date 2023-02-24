@@ -3,16 +3,16 @@
 /**
  * print_last_digit - main fuction
  *
- * @n: to print absolute value
+ * @a: entry number to check
  *
- * Return: last digit
+ * Return: last digit of a
  */
-int print_last_digit(int);
+int print_last_digit(int a);
 {
-int a;
-a = % 10;
-if (a < 0)
-a = a * (-1);
-_putchar(a + '0');
-return (a);
+int b;
+b = a % 10;
+if (b < 0)
+b = b * (-1);
+_putchar(b + '0');
+return (b); 
 }
