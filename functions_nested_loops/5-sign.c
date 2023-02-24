@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_sign - Main fuction
+ * Print_sign - Main fuction
  *
  * @n: verification letter
  *
- * Return: -1 (negative), 1 (positive), 0 (zero)
+ * Return: -1 if negative, 1 if positive, 0 if zero 
  */
 int print_sign(int n)
 {
