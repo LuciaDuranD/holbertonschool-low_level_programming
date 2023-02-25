@@ -10,10 +10,10 @@
 
 void print_to_98(int n)
 {
-int a;
-for (a = n; a < 98; a++)
-printf("%a, ", a);
-for (a = n; a > 98; a--)
-printf("%a, ", a);
+int b;
+for (b = n; b < 98; b++)
+printf("%b, ", b);
+for (b = n; b > 98; b--)
+printf("%b, ", b);
 printf("98\n");
 }
