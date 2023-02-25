@@ -6,6 +6,7 @@
  *
  * @n: prints all natural numbers from n
  *
+ * Return: none
  */
 
 void print_to_98(int n)
