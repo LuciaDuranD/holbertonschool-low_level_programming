@@ -12,8 +12,9 @@
 void print_to_98(int n)
 {
 int a;
-for (a =n; a < 98; a++)
-for (a =n; a > 98; a--)
+for (a = n; a < 98; a++)
+printf("%a, ", a);
+for (a = n; a > 98; a--)
 printf("%a, ", a);
 printf("98\n");
 }
